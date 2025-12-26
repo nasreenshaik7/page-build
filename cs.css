@@ -229,6 +229,7 @@ nav .right a:last-child{
     display: flex;
     line-height: 25px;
     margin-right: 50px;
+    flex-direction: column;
 
 }
 .form-container{
@@ -251,6 +252,93 @@ nav .right a:last-child{
 
 }
 
+@media (max-width:768px){
+    .home-section .two{
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+
+    .home-section .two .pic img{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .features-section .containers{
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+
+    .features-section .containers .onee,
+    .features-section .containers .twoo,
+    .features-section .containers .threee{
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+
+    .testimonials-section .review{
+        margin-top: 50px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testimonials-section .review div{
+        margin-left: 0;
+        margin-bottom: 20px;
+        width: 80%;
+    }
+
+    .bigbox{
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Contact-section .bigbox div{
+        margin-bottom: 50px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Contact-section form{
+        width: 100%;
+        margin: 0 auto;
+
+    }
+
+    .small{
+        height: auto;
+        margin-right: 0;
+        margin-bottom: 50px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contact-form{
+        width: 100%;
+    }
+    nav{
+        flex-direction: column;
+
+        margin-bottom: 100px;
+    }
+    nav .left{
+        margin-bottom: 10px;
+    }
+    nav .pages{
+        margin-bottom: 10px;
+    }
+    nav .right{
+        margin-bottom: 50px;
+    }
+    .home-section{
+        height: auto;
+    }
+    .features-section{
+        height: auto;
+    }
+    .testimonials-section{
+        height: auto;
+    }
+
+}
 
 
 
