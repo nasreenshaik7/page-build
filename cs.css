@@ -286,6 +286,11 @@ nav .right a:last-child{
         margin-bottom: 20px;
         width: 80%;
     }
+    .btn{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 30px;
+    }
 
     .bigbox{
         height: auto;
